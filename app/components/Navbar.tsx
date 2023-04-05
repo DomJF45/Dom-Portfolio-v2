@@ -1,8 +1,9 @@
 "use client"
 import { useState } from 'react';
 import { Box, Heading, Link, Square, HStack, useColorModeValue, LinkBox, LinkOverlay } from '@chakra-ui/react';
-import { GiBleedingEye } from 'react-icons/gi';
-import { MdOutlineMenu } from 'react-icons/md'
+import { GiBleedingEye, GiOuroboros, GiAnchor } from 'react-icons/gi';
+import { MdOutlineMenu } from 'react-icons/md';
+import { TiAnchor } from 'react-icons/ti';
 import LightModeToggle from './LightModeToggle';
 import { AnimatePresence } from 'framer-motion';
 import MobileNav from './MobileNav';
@@ -59,7 +60,7 @@ const Navbar = () => {
                 gap='5px'
                 cursor={'pointer'}
               >
-                <GiBleedingEye size={25} />
+                <TiAnchor size={25} />
                 <LinkOverlay
                     href='/'
                   >
