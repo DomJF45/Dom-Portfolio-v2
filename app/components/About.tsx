@@ -12,7 +12,7 @@ const About = () => {
         </Text>
         <Divider color={useColorModeValue('#303030','#ffffff63')} width={'80px'} />
         <Text>
-          Dominick (Dom) is a full-stack software developer with an emphasis on front-end web development. He is currently pursuing a Master of Science degree in Software Engineering at Kennesaw State University, to which he is expected to complete by the end of 2023. When he is not studying, Dominick likes to work on personal projects and hone his front-end engineering skills.
+          I am a full-stack software developer with an emphasis on front-end web development. I am currently pursuing a Master of Science degree in Software Engineering at Kennesaw State University, to which I am expected to complete by the end of 2023. When I'm not studying, I like to work on personal projects and hone my front-end engineering skills.
         </Text>
       </Stack>
     </Box>
