@@ -19,9 +19,11 @@ const Links = () => {
   return (
     <Box 
       width={'100%'}
+      paddingTop={7}
     >
       <Text
         fontSize={'2xl'}
+        fontWeight={700}
       >
         Links
       </Text>

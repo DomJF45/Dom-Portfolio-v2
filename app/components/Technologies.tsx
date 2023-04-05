@@ -29,6 +29,7 @@ const Technologies = () => {
     <>
       <Box
         width={'100%'}
+        paddingBlock={7}
       >
         <Stack width={'100%'}>
           <HStack justifyContent={'space-between'}>
@@ -56,7 +57,7 @@ const Technologies = () => {
             justifyContent={'center'}
             borderRadius={'18px'}
             alignItems={'center'}
-            minHeight={['40vh', '40vh', '35vh']}
+            minHeight={['40vh', '40vh', '40vh']}
           >
             <Box 
               display={'flex'}

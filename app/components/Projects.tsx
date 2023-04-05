@@ -9,6 +9,7 @@ const Projects = () => {
 
     <Box
       width={'100%'}
+      paddingBlock={7}
     >
       <Stack alignItems={'start'}>
         <Text as={'h1'} fontSize={'2xl'} fontWeight={700} textAlign={'justify'}>
