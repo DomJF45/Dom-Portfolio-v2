@@ -10,12 +10,6 @@ const styles = {
   })
 }
 
-
-const fonts = {
-  heading: `'M PLUS Rounded 1c', sans-serif`,
-  body: `'M PLUS Rounded 1c', sans-serif`
-}
-
 const config: ThemeConfig = {
   //@ts-ignore
   initialColorMode: "dark",
