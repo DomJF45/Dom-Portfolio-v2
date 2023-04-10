@@ -1,4 +1,4 @@
-import { FaReact, FaNodeJs, FaJs, FaHtml5, FaCss3, FaJava, FaPython } from 'react-icons/fa'
+import { FaReact, FaNodeJs, FaJs, FaHtml5, FaCss3, FaJava, FaPython, FaRust } from 'react-icons/fa'
 import { SiMysql, SiTypescript, SiMongodb, SiNeovim, SiExpress, SiCplusplus, SiRubyonrails, SiGraphql } from 'react-icons/si'
 import { BsGit } from 'react-icons/bs'
 import { TbBrandVscode } from 'react-icons/tb'
@@ -139,6 +139,13 @@ export const techData: iTechData[] = [
     level: 'Some',
     lightColor: colorSchemeLight.some,
     darkColor: colorSchemeDark.some  
+  },
+  {
+    name: 'Rust',
+    icon: <FaRust size={iconSize} />,
+    level: 'Learning',
+    lightColor: colorSchemeLight.learning,
+    darkColor: colorSchemeDark.learning
   },
   {
     name: 'React Native',
