@@ -15,7 +15,7 @@ const LabRats = () => {
       paddingBottom={14}
     >
       <Crumbs path={['projects']} current={'LabRats'} />
-      <Section title={'LabRats'} imgSrc={'https://ik.imagekit.io/wvlrlc0tr/Portfolio/labrats.png?updatedAt=1680449750578'}>
+      <Section title={'LabRats'} imgSrc={'https://ik.imagekit.io/wvlrlc0tr/Portfolio/labrats.png?updatedAt=1680449750578'} link={'http://labrats.herokuapp.com/'}>
         <Text>
           LabRats is a project management system for use in research laboratories.
         </Text>

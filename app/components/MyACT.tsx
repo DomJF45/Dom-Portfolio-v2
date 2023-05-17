@@ -1,14 +1,13 @@
 "use client"
 import TechTag from '../components/TechTag'
 import { Box, Text, Stack, HStack, SimpleGrid, Breadcrumb, BreadcrumbItem, Divider, Image, useColorModeValue, BreadcrumbLink } from '@chakra-ui/react'
-import Section from '../components/Section'
+import Section from './Section'
 import ProjectStack from '../components/ProjectTags/ProjectStack'
 import Crumbs from '../components/Crumbs'
 
 const MyACT = () => {
 
   return (
-
     <Stack 
       width={'100%'}
       alignItems={'start'}
@@ -26,7 +25,6 @@ const MyACT = () => {
           The user is greeted with a dashboard after logging in consisting of data gathered from their exercises. Here, the user can see which areas of the size core ACT values they need to improve upon. They can also view their daily streaks, hours on the app, and days used. Additionally, users can also view the total amount of exercises they have engaged with.
         </Text>
       </Section>
-      
       <Section title={'Dynamic Exercises'} imgSrc={'https://ik.imagekit.io/wvlrlc0tr/Portfolio/MyACT/Screenshot_2023-04-03_at_1.55.21_PM.png?updatedAt=1680544671721'}>
         <Text>
           Users engage with dynamic exercises, such as a breathing exercise. This exercise prompts the user to input a speed level at which they would like to breathe in and out to. The animation that follows is based off their speed to give users control over their meditateve breathing animation.
@@ -37,13 +35,11 @@ const MyACT = () => {
           This is an example of another exercise users can interact with. This exercise allows users to drag and drop certain cards based off their importance level. These values might change daily, so it is important for the user to stay consistent with this exercise in order to view their growth.
         </Text>
       </Section> 
-
       <Section title={'The Six Core Values'} imgSrc={'https://ik.imagekit.io/wvlrlc0tr/Portfolio/MyACT/Screenshot_2023-04-03_at_1.54.56_PM.png?updatedAt=1680544671477'}>
         <Text>
           Users can explore each of the six core processes of Acceptance and Commitment Therapy. Each process contains a video about the process, as well an interactive exercise tailored for that value.
         </Text>
       </Section>
- 
       <Text fontSize={'2xl'}>
         Journal
       </Text>

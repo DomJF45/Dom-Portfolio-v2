@@ -13,6 +13,17 @@ export interface iProjectData {
 
 export const ProjectData: iProjectData[] = [
   {
+    name: 'xiv-minion-dex',
+    bio: 'A pokedex-like web app for Final Fantasy XIV Minions',
+    img: 'https://ik.imagekit.io/wvlrlc0tr/Portfolio/xiv-minion/xiv-minion?updatedAt=1684348483386',
+    url: '/projects/minion-dex/',
+    languages: [
+      "React",
+      "Typescript",
+      "ChakraUI"
+    ]
+  },
+  {
     name: 'MyACT',
     bio: 'An Acceptance and Commitment Therapy Worksheet app',
     img: 'https://ik.imagekit.io/wvlrlc0tr/Portfolio/MyACT.png?updatedAt=1680459349671',
